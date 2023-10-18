@@ -3,9 +3,9 @@ mod lc_13;
 mod lc_58;
 mod lc_14;
 mod lc_28;
+mod lc_125;
 
 fn main() {
-    let mut _in1 = String::from("aaa");
-    let mut _in2 = String::from("aaaa");
-    println!("{}", lc_28::str_str(_in1, _in2));
+    let mut _in1 = String::from("0P");
+    println!("{}", lc_125::is_palindrome(_in1));
 }
