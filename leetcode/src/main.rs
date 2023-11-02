@@ -5,9 +5,10 @@ mod lc_14;
 mod lc_28;
 mod lc_125;
 mod lc_392;
+mod lc_205;
 
 fn main() {
-    let mut _in1 = String::from("bb");
-    let mut _in2 = String::from("ahbgdc");
-    println!("{}", lc_392::is_subsequence(_in1, _in2));
+    let mut _in1 = String::from("eadb");
+    let mut _in2 = String::from("rarb");
+    println!("{}", lc_205::is_isomorphic(_in1, _in2));
 }
